@@ -97,6 +97,10 @@ tr.header {
     max-height: unset !important;
 }
 
+.datagrid td, .datagrid th {
+    white-space: unset!important;
+}
+
 /* Detail - Detail  Menu */
 
 .detpage>*>.header .main {
@@ -277,7 +281,7 @@ div#notification_caption {
 
 .entitySelectorGroup > div,
 #LogonLocation_EntitySelector  {
-    display: flex;
+    display: flex!important;
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
