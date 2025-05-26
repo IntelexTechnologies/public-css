@@ -172,7 +172,19 @@ tr.header {
     font-size: 1.8rem;
 }
 
+.secbase>.content {
+    padding: 5px !important;
+}
 
+.inventory-row div.body-wrapper, 
+.map-wrapper div.body-wrapper, 
+.detpage .inventory-row div.body-wrapper {
+    min-height: unset !important;
+}
+
+
+.secbase .grid_container .inventory-row {
+    margin-bottom: 0 !important;
 
 /* Detail - Input Component */
 
