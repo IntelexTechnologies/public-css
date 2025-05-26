@@ -252,6 +252,11 @@ tr.header {
     min-height: unset !important;
 }
 
+
+.detpage .fieldarea-caption {
+    margin-top: 4px;
+}
+
 .detpage .fieldarea-field {
     text-align: left;
     vertical-align: top;
@@ -376,7 +381,7 @@ div#notification_caption {
 .entityselector-selectLink::before,
 .entityselector-clearLink::before,
 .entityselector-assignToMeLink::before {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'FontAwesome';
     color: #004c8f;
 }
