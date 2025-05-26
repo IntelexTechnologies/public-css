@@ -167,6 +167,8 @@ tr.header {
     font-size: 1.8rem;
 }
 
+
+
 /* Detail - Input Component */
 
 .fieldarea-field textarea, 
@@ -208,6 +210,13 @@ tr.header {
 
 .entityselector-assignToMeLink::before {
     content: "\f007"; /* fa-user */
+}
+
+.field-wrapper {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .fieldarea-field,
