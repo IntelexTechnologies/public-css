@@ -208,6 +208,39 @@ tr.header {
     margin-right: 0 !important;
 }
 
+/* Messages */
+
+.detpage .errorContainer {
+    background-color: #ffeded;
+    border: 1px solid #d48686;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.detpage .errorContainer div {
+    color: #7d0000 !important;
+}
+
+
+.detpage div.message {
+    margin: 0 0 20px;
+    border-radius: 10px;
+    padding: 10px !important;
+}
+
+.ui-state-highlight {
+    border: 1px solid #0a679f !important;
+    background: #e3eff9 !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 5px;
+}
+
+div#notification_caption {
+    width: 100%;
+}
 
 /* Detail - Input Component */
 
