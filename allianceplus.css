@@ -232,3 +232,8 @@ tr.header {
     gap: 5px;
     align-items: center;
 }
+
+
+.detpage .fieldarea-row {
+    margin-right: 0 !important;
+}
