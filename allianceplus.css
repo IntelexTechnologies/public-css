@@ -162,6 +162,9 @@ tr.header {
     height: unset !important;
 }
 
+.secbase > .header {
+    height: unset !important;
+}
 
 .detpage .secbase .header .main {
     background: none !important;
@@ -184,8 +187,12 @@ tr.header {
 }
 
 .secbase>.content {
-    padding: 5px !important;
+    padding: 20px 5px 0 5px !important;
     margin-top: 0 !important;
+}
+
+.secbase>.footer {
+    display: none !important;
 }
 
 .inventory-row div.body-wrapper, 
