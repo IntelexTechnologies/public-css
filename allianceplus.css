@@ -3,3 +3,14 @@
 .datagrid .td_sorting .dropdown_container {
     margin-right: 0!important;
 }
+
+.header_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.datagrid .td_sorting .tool-tip {
+    margin-left: unset !important;
+}
