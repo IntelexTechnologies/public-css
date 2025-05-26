@@ -187,6 +187,28 @@ tr.header {
     margin-bottom: 0 !important;
 }
 
+.field-wrapper {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.fieldarea-field,
+.datetime-picker {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+
+
+.detpage .fieldarea-row {
+    margin-right: 0 !important;
+}
+
+
 /* Detail - Input Component */
 
 .fieldarea-field textarea, 
@@ -230,23 +252,11 @@ tr.header {
     content: "\f007"; /* fa-user */
 }
 
-.field-wrapper {
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
-.fieldarea-field,
-.datetime-picker {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5px;
-    align-items: center;
-}
-
-
-.detpage .fieldarea-row {
-    margin-right: 0 !important;
+input:focus,
+select:focus,
+textarea:focus {
+    /* outline-width: 1px !important; */
+    outline: 1px solid #86caff;
+    box-shadow: 4px 3px 4px 0px rgb(187 225 255 / 50%);
 }
