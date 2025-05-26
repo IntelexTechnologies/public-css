@@ -147,9 +147,13 @@ tr.header {
 
 .secbase {
     border: 1px solid #dbe4e5 !important;
-    border-radius: 5px;
-    padding: 0 10px;
+    border-radius: 18px;
+    padding: 18px;
     box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.1);
+}
+
+.secbase>.header>.main>.title-container .icon {
+    display: none !important;
 }
 
 .secbase>.header>.main>.title-container {
@@ -166,6 +170,7 @@ tr.header {
     flex-wrap: nowrap;
     align-items: center;
     gap: 5px;
+    height: unset !important;
 }
 
 .secbase.secbase-raven>.header .main>.trigger {
@@ -173,7 +178,9 @@ tr.header {
 }
 
 .secbase >.header .main>.title-container .text {
-    font-size: 1.8rem;
+    font-size: 1.8rem!important;
+    color: #262626 !important;
+    font-weight: 600!important;
 }
 
 .secbase>.content {
