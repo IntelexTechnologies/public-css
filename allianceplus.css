@@ -97,7 +97,7 @@ tr.header {
     max-height: unset !important;
 }
 
-.datagrid td, .datagrid th {
+.datagrid th {
     white-space: unset!important;
 }
 
