@@ -48,6 +48,8 @@ div[style="clear:both"] {
     background-position: 3px!important;
 }
 
+
+.grid-action-links a:empty,
 .inventory-actions:empty {
     display: none;
 }
