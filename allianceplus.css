@@ -250,7 +250,7 @@ tr.header {
     flex-wrap: wrap;
 }
 
-.field-wrapper > div {
+.field-wrapper > div:not([name]) {
     padding: 8px 0 !important;
 }
 
