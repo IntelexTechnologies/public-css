@@ -1,3 +1,10 @@
+/* root colors */
+
+:root {
+    --button-border-color: #d7dcde;
+    --button-hover-color: #e6e9eb;
+}
+
 /* Inventory Menu */
 
 .links_container {
@@ -6,6 +13,9 @@
     flex-wrap: wrap;
     gap: 5px;
     align-items: center;
+
+    height: unset!important;
+    padding: 0!important;
 }
 
 .grid-action-links {
@@ -13,6 +23,17 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 5px;
+    margin: 10px 0;
+}
+
+.grid-action-links a, .inventory-actions {
+    padding: 5px;
+    border: 1px solid var(--button-border-color);
+    border-radius: 6px;
+}
+
+.grid-action-links:hover a, .inventory-actions:hover {
+    background-color: var(--button-hover-color);
 }
 
 /* Inventory Columns */
