@@ -138,6 +138,7 @@ tr.header {
 .secbase {
     border: 1px solid #96a5a6 !important;
     border-radius: 5px;
+    padding: 0 10px;
 }
 
 .secbase>.header>.main>.title-container {
@@ -148,10 +149,17 @@ tr.header {
 
 .detpage .header .main {
     background: none !important;
-    padding: 0px 6px !important;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     gap: 5px;
+}
+
+.secbase.secbase-raven>.header .main>.trigger {
+    margin-top: 2px!important;
+}
+
+.secbase >.header .main>.title-container .text {
+    font-size: 1.8rem;
 }
