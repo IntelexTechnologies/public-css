@@ -240,7 +240,6 @@ tr.header {
     margin-bottom: 0 !important;
 }
 
-
 .field-area {
     display: flex;
     flex-direction: column;
@@ -256,7 +255,11 @@ tr.header {
 }
 
 .field-wrapper > div {
-    padding: 8px 0;
+    padding: 8px 0 !important;
+}
+
+.detpage .fieldarea-caption .caption-wrapper {
+    min-height: unset !important;
 }
 
 .detpage .fieldarea-field {
