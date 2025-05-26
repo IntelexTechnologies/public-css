@@ -177,3 +177,28 @@ tr.header {
     padding: 5px 8px;
 }
 
+.fieldarea-field input[type="text"], 
+.fieldarea-field input[type="password"] {
+    height: unset!important;
+    line-height: unset!important;
+}
+
+.entitySelectorGroup,
+.entityselector-selectLink,
+.entityselector-clearLink {
+
+    font-size: 0 !important;
+}
+
+.entityselector-selectLink::before,
+.entityselector-clearLink::before {
+    font-size: 14px;
+    font-family: 'FontAwesome';
+}
+
+.entityselector-selectLink::before {
+    content: "\f002"; /* fa-search */
+}
+.entityselector-clearLink::before {
+    content: "\f00d"; /* fa-times */
+}
