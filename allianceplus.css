@@ -264,6 +264,8 @@ tr.header {
 
 .fieldarea-field > div {
     padding: 8px;
+    background-color: #f9f9f9;
+    width: 100%;
 }
 
 .fieldarea-field,
