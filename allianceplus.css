@@ -220,6 +220,16 @@ tr.header {
     padding: 5px 8px;
 }
 
+.fieldarea-field textarea,
+.fieldarea-field select,
+.fieldarea-field input[type="text"] {
+    width: 100%!important;
+}
+
+.fieldarea-field select[name$="Timezone"] {
+    width: auto!important;
+}
+
 .fieldarea-field input[type="text"], 
 .fieldarea-field input[type="password"] {
     height: unset!important;
