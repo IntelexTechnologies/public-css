@@ -339,6 +339,6 @@ input:focus,
 select:focus,
 textarea:focus {
     /* outline-width: 1px !important; */
-    outline: 1px solid #86caff;
-    box-shadow: 4px 3px 4px 0px rgb(187 225 255 / 50%);
+    outline: 1px solid #004c8f;
+    box-shadow: 4px 3px 4px 0px rgb(156 173 255 / 50%);
 }
