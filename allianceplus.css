@@ -81,6 +81,7 @@ div[style="clear:both"] {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 5px;
+    align-items: center;
 }
 
 .datagrid .td_sorting .tool-tip {
@@ -122,8 +123,8 @@ tr.header {
 .detpage .menu-action-links input {
 
     margin-right: 0!important;
-    border: 1px solid var(--button-border-color);
-    padding: 5px;
+    border: 1px solid var(--button-border-color) !important;
+    padding: 5px !important;
     border-radius: 6px;
     background-position: 3px !important;
 }
@@ -136,9 +137,10 @@ tr.header {
 /* Detail View Section */
 
 .secbase {
-    border: 1px solid #96a5a6 !important;
+    border: 1px solid #dbe4e5 !important;
     border-radius: 5px;
     padding: 0 10px;
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.1);
 }
 
 .secbase>.header>.main>.title-container {
