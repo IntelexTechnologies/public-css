@@ -65,10 +65,16 @@
     align-items: center;
 }
 
+.datagrid .dropdown {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
 .datagrid .td_sorting .tool-tip {
     margin-left: unset !important;
 }
-
 
 .header_wrapper .dropdown a:link {
     white-space: pre-wrap !important;
@@ -82,6 +88,7 @@ tr.header {
 
 .detpage>*>.header .main {
     height: unset !important;
+    padding-bottom: 10px!important;
 }
 
 .menu-action-links {
