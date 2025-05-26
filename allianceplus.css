@@ -5,6 +5,13 @@
     --button-hover-color: #e6e9eb;
 }
 
+/* Inventory header */
+
+/* Hide the Custom Inventory Dropdown */
+.header-wrapper-inventory {
+    display: none;
+}
+
 /* Inventory Menu */
 
 .links_container {
@@ -30,9 +37,14 @@
     padding: 5px;
     border: 1px solid var(--button-border-color);
     border-radius: 6px;
+    background-position: 3px!important;
 }
 
-.grid-action-links:hover a, .inventory-actions:hover {
+.inventory-actions .dropdown_text {
+    padding-right: 0!important;
+}
+
+.grid-action-links a:hover, .inventory-actions:hover {
     background-color: var(--button-hover-color);
 }
 
