@@ -381,6 +381,7 @@ div#notification_caption {
 .entityselector-selectLink,
 .entityselector-clearLink,
 .entityselector-assignToMeLink,
+.hierarchyselector-clearLink,
 #configureSchedule,
 #clearSchedule {
     font-size: 0 !important;
@@ -390,7 +391,8 @@ div#notification_caption {
 .entityselector-clearLink::before,
 .entityselector-assignToMeLink::before,
 #configureSchedule::before,
-#clearSchedule::before {
+#clearSchedule::before,
+.hierarchyselector-clearLink::before {
     font-size: 18px;
     font-family: 'FontAwesome';
     color: #004c8f;
@@ -402,7 +404,8 @@ div#notification_caption {
 }
 .entityselector-clearLink::before,
 .hierarchyselector-clearLink::before,
-#clearSchedule::before {
+#clearSchedule::before,
+.hierarchyselector-clearLink::before {
     content: "\f00d"; /* fa-times */
 }
 
