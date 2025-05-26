@@ -64,3 +64,35 @@
 .datagrid .td_sorting .tool-tip {
     margin-left: unset !important;
 }
+
+
+.header_wrapper .dropdown a:link {
+    white-space: pre-wrap !important;
+}
+
+tr.header {
+    max-height: unset !important;
+}
+
+/* Detail - Detail  Menu */
+
+.detpage>*>.header .main {
+    height: unset !important;
+}
+
+.menu-action-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.detpage .menu-action-links input, 
+.detpage .menu-action-links a, 
+.detpage .menu-action-links > span {
+    margin-right: 0!important;
+    border: 1px solid var(--button-border-color);
+    padding: 5px;
+    border-radius: 6px;
+}
