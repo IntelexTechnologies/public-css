@@ -198,7 +198,7 @@ tr.header {
 .datetime-picker {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 5px;
     align-items: center;
 }
@@ -236,12 +236,29 @@ tr.header {
     line-height: unset!important;
 }
 
+.entitySelectorGroup {
+    width: 100%;
+}
+
+.entitySelectorGroup > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.entitySelectorGroup a {
+    line-height: normal;
+}
+
 .entitySelectorGroup,
 .entityselector-selectLink,
 .entityselector-clearLink,
 .entityselector-assignToMeLink {
-
     font-size: 0 !important;
+    width: 100%;
 }
 
 .entityselector-selectLink::before,
