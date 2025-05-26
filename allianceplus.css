@@ -108,8 +108,9 @@ tr.header {
     padding-right: 80px!important; /* to leave space for the gear, print, popup icon */
 }
 
-.detpage .menu-action-links input, 
-.detpage .menu-action-links {
+.detpage .menu-action-links a,
+.detpage .menu-action-links input {
+
     margin-right: 0!important;
     border: 1px solid var(--button-border-color);
     padding: 5px;
