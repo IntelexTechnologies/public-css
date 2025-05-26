@@ -250,10 +250,6 @@ tr.header {
     flex-wrap: wrap;
 }
 
-.field-wrapper > div:not([name]) {
-    padding: 8px 0 !important;
-}
-
 .detpage .fieldarea-caption .caption-wrapper {
     min-height: unset !important;
 }
@@ -325,8 +321,12 @@ div#notification_caption {
 .fieldarea-field select {
     border-radius: 8px !important;
     box-sizing: border-box;
-    border: 1px solid #004c8f;
+    border: 1px solid #004c8f!important;
     padding: 5px 8px;
+}
+
+.detpage .fieldarea-field{
+    padding-top: unset !important;
 }
 
 .fieldarea-field textarea,
