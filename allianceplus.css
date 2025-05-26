@@ -40,6 +40,10 @@
     background-position: 3px!important;
 }
 
+.inventory-actions:empty {
+    display: none;
+}
+
 .inventory-actions .dropdown_text {
     padding-right: 0!important;
 }
@@ -86,13 +90,19 @@ tr.header {
     flex-wrap: wrap;
     align-items: center;
     gap: 5px;
+    padding-right: 80px!important; /* to leave space for the gear, print, popup icon */
 }
 
 .detpage .menu-action-links input, 
-.detpage .menu-action-links a, 
-.detpage .menu-action-links > span {
+.detpage .menu-action-links {
     margin-right: 0!important;
     border: 1px solid var(--button-border-color);
     padding: 5px;
     border-radius: 6px;
+    background-position: 3px !important;
+}
+
+.menu-action-links a:hover, 
+.menu-action-links input:hover {
+    background-color: var(--button-hover-color);
 }
