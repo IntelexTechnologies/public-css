@@ -66,6 +66,7 @@ div[style="clear:both"] {
 
 .datagrid .td_sorting .dropdown_container {
     margin-right: 0!important;
+    white-space: initial;
 }
 
 .header_wrapper {
