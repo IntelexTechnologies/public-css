@@ -119,6 +119,15 @@ tr.header {
 .detpage .inventory-row th input[type="text"] {
     border-radius: 8px;
     padding: 5px 8px;
+    height: unset !important;
+}
+
+.inventory-row th select.filterBox, 
+.map-wrapper th select.filterBox, 
+.detpage .inventory-row th select.filterBox {
+    border-radius: 8px;
+    padding: 5px 8px;
+    height: unset !important;
 }
 
 /* Detail - Detail  Menu */
