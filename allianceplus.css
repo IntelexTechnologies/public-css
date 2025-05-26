@@ -258,7 +258,6 @@ tr.header {
 .entityselector-clearLink,
 .entityselector-assignToMeLink {
     font-size: 0 !important;
-    width: 100%;
 }
 
 .entityselector-selectLink::before,
