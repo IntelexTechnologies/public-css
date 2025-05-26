@@ -413,7 +413,6 @@ div#notification_caption {
     content: "\f007"; /* fa-user */
 }
 
-
 input:focus,
 select:focus,
 textarea:focus {
@@ -430,5 +429,5 @@ span#frequencyContainerSummary {
 div[id^="frequencyContainer_"],
 #schedulePreview,
 #calendarDialog {
-    display: none;
+    display: none!important;
 }
