@@ -143,6 +143,11 @@ tr.header {
     background-color: var(--button-hover-color);
 }
 
+
+.datagrid_footer .pagerContainer {
+    width: auto !important;
+}
+
 /* Detail View Section */
 
 .secbase {
