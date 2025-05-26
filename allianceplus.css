@@ -1,5 +1,3 @@
-
-
 /* root colors */
 
 :root {
@@ -280,6 +278,7 @@ tr.header {
 
 .detpage .fieldarea-row {
     margin-right: 0 !important;
+    line-height: unset !important;
 }
 
 /* Messages */
@@ -324,7 +323,7 @@ div#notification_caption {
     border-radius: 8px !important;
     box-sizing: border-box;
     border: 1px solid #004c8f!important;
-    padding: 5px 8px;
+    padding: 8px;
 }
 
 .detpage .fieldarea-field{
