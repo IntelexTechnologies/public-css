@@ -320,6 +320,7 @@ div#notification_caption {
 .entityselector-assignToMeLink::before {
     font-size: 20px;
     font-family: 'FontAwesome';
+    color: #004c8f;
 }
 
 .entityselector-selectLink::before {
