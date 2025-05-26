@@ -50,7 +50,8 @@ div[style="clear:both"] {
 
 
 .grid-action-links a:empty,
-.inventory-actions:empty {
+.inventory-actions:empty,
+.pagerContainer:empty {
     display: none;
 }
 
@@ -117,6 +118,10 @@ tr.header {
     .menu-action-links {
         padding-right: 0!important;
     }
+
+    .detpage .fieldarea-field {
+        width: 100% !important;
+    } 
 }
 
 .detpage .menu-action-links a,
