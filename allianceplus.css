@@ -142,9 +142,16 @@ tr.header {
 
 .secbase>.header>.main>.title-container {
     margin: 0!important;
+    border: none !important;
+    height: unset !important;
 }
 
 .detpage .header .main {
     background: none !important;
     padding: 0px 6px !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 5px;
 }
