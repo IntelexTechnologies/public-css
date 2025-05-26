@@ -251,7 +251,6 @@ tr.header {
     display: flex !important;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .field-wrapper > div {
@@ -268,6 +267,10 @@ tr.header {
     float: right;
     outline: 1px solid #dce4e5;
     border-radius: 8px;
+}
+
+.fieldarea-field > div {
+    padding: 0 8px;
 }
 
 .fieldarea-field,
