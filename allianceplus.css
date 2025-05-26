@@ -38,7 +38,7 @@ div[style="clear:both"] {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 5px;
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 
 .grid-action-links a, .inventory-actions {
