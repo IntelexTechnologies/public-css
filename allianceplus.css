@@ -111,6 +111,13 @@ tr.header {
     padding-right: 80px!important; /* to leave space for the gear, print, popup icon */
 }
 
+
+@media (max-width: 768px) {
+    .menu-action-links {
+        padding-right: 0!important;
+    }
+}
+
 .detpage .menu-action-links a,
 .detpage .menu-action-links input {
 
