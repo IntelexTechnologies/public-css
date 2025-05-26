@@ -269,6 +269,7 @@ tr.header {
     padding: 8px;
     background-color: #f9f9f9;
     width: 100%;
+    min-height: 16px;
 }
 
 .fieldarea-field,
@@ -329,6 +330,7 @@ div#notification_caption {
     box-sizing: border-box;
     border: 1px solid #004c8f!important;
     padding: 8px;
+    height: unset !important;
 }
 
 .detpage .fieldarea-field{
