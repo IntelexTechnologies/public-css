@@ -380,22 +380,29 @@ div#notification_caption {
 .entitySelectorGroup,
 .entityselector-selectLink,
 .entityselector-clearLink,
-.entityselector-assignToMeLink {
+.entityselector-assignToMeLink,
+#configureSchedule,
+#clearSchedule {
     font-size: 0 !important;
 }
 
 .entityselector-selectLink::before,
 .entityselector-clearLink::before,
-.entityselector-assignToMeLink::before {
+.entityselector-assignToMeLink::before,
+#configureSchedule::before,
+#clearSchedule::before {
     font-size: 18px;
     font-family: 'FontAwesome';
     color: #004c8f;
 }
 
-.entityselector-selectLink::before {
+.entityselector-selectLink::before,
+#configureSchedule::before {
     content: "\f002"; /* fa-search */
 }
-.entityselector-clearLink::before {
+.entityselector-clearLink::before,
+.hierarchyselector-clearLink::before,
+#clearSchedule::before {
     content: "\f00d"; /* fa-times */
 }
 
@@ -410,4 +417,15 @@ textarea:focus {
     /* outline-width: 1px !important; */
     outline: 1px solid #004c8f;
     box-shadow: 4px 3px 4px 0px rgb(156 173 255 / 50%);
+}
+
+
+span#frequencyContainerSummary {
+    padding: 8px;
+}
+
+div[id^="frequencyContainer_"],
+#schedulePreview,
+#calendarDialog {
+    display: none;
 }
