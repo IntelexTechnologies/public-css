@@ -99,9 +99,6 @@ tr.header {
 
 .datagrid th {
     white-space: unset!important;
-}
-
-.datagrid td, .datagrid th {
     vertical-align: bottom!important; 
 }
 
