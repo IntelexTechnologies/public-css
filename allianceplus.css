@@ -149,7 +149,8 @@ tr.header {
     height: unset !important;
 }
 
-.detpage .header .main {
+
+.detpage .secbase .header .main {
     background: none !important;
     display: flex;
     flex-direction: row;
@@ -207,4 +208,13 @@ tr.header {
 
 .entityselector-assignToMeLink::before {
     content: "\f007"; /* fa-user */
+}
+
+.fieldarea-field,
+.datetime-picker {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
 }
