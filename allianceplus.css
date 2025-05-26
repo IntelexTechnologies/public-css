@@ -1,8 +1,16 @@
+
+
 /* root colors */
 
 :root {
     --button-border-color: #d7dcde;
     --button-hover-color: #e6e9eb;
+}
+
+/* Hiden all clear:both stuff */
+
+div[style="clear:both"] {
+    display: none;
 }
 
 /* Inventory header */
