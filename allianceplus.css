@@ -132,3 +132,19 @@ tr.header {
 .menu-action-links input:hover {
     background-color: var(--button-hover-color);
 }
+
+/* Detail View Section */
+
+.secbase {
+    border: 1px solid #96a5a6 !important;
+    border-radius: 5px;
+}
+
+.secbase>.header>.main>.title-container {
+    margin: 0!important;
+}
+
+.detpage .header .main {
+    background: none !important;
+    padding: 0px 6px !important;
+}
