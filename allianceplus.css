@@ -245,7 +245,7 @@ tr.header {
 
 
 .field-wrapper {
-    display: flex !important;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -267,7 +267,7 @@ tr.header {
 }
 
 .fieldarea-field > div {
-    padding: 0 8px;
+    padding: 8px;
 }
 
 .fieldarea-field,
@@ -325,7 +325,7 @@ div#notification_caption {
 .fieldarea-field select {
     border-radius: 8px !important;
     box-sizing: border-box;
-    border: 1px solid #bdc3c7;
+    border: 1px solid #004c8f;
     padding: 5px 8px;
 }
 
