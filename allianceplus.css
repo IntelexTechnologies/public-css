@@ -101,6 +101,26 @@ tr.header {
     white-space: unset!important;
 }
 
+.datagrid td, .datagrid th {
+    vertical-align: bottom!important; 
+}
+
+.inventory-row div.body-wrapper tr.header, 
+.inventory-row div.body-wrapper tr.header-filter, 
+.map-wrapper div.body-wrapper tr.header, 
+.map-wrapper div.body-wrapper tr.header-filter, 
+.detpage .inventory-row div.body-wrapper tr.header, 
+.detpage .inventory-row div.body-wrapper tr.header-filter {
+    max-height: unset !important;
+}
+
+.inventory-row th input[type="text"], 
+.map-wrapper th input[type="text"], 
+.detpage .inventory-row th input[type="text"] {
+    border-radius: 8px;
+    padding: 5px 8px;
+}
+
 /* Detail - Detail  Menu */
 
 .detpage>*>.header .main {
