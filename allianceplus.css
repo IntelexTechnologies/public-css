@@ -437,6 +437,7 @@ div#breadcrumbs_container {
 
 /* grid */
 
+div.inventory-row.datagrid .body-wrapper,
 .secbase .grid_container .body-wrapper {
     border-radius: 18px 18px 0px 0px;
 }
@@ -448,6 +449,7 @@ div.map-wrapper tr.datagrid_footer td,
 }
 
 .detpage .grid_container thead,
+div.inventory-row.datagrid thead,
 div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td, 
 div.map-wrapper tr.datagrid_footer td {
     background-color: #F7F7F7;
