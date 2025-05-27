@@ -244,13 +244,15 @@ table.links {
 .grid-action-links a, .inventory-actions {
     padding: 8px 10px!important;
     border: 2px solid rgb(0, 76, 143);
+    color: rgb(0, 76, 143);
     border-radius: 21px;
     background: none;
     font-size: 14px;
     font-weight: 600;
 }
 
-.grid-action-links a::before, .inventory-actions::before {
+.grid-action-links a::before, 
+.inventory-actions::before {
     font-family: 'FontAwesome';
     color: rgb(0, 76, 143);
     margin-right: 5px;
@@ -270,7 +272,7 @@ a.createNewTaskLink,
 a.gridLinkBuilder,
 .ui-widget-content a.gridCreateLink {
     color: #FFF;
-    background-color: #004c8f;
+    background-color: #004c8f!important;
 }
 
 a.gridDeleteLink::before {
