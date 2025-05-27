@@ -520,7 +520,7 @@ div#breadcrumbs_container {
 .detpage .menu-action-links a::before {
     font-family: 'FontAwesome';
     font-weight: normal;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .detpage .menu-action-links a.archiveLink {
@@ -528,12 +528,20 @@ div#breadcrumbs_container {
     border-color: #8d1624 !important;
 }
 
+.detpage .menu-action-links a#workflow-add-comment img {
+    display: none;
+}
+
+.detpage .menu-action-links a#workflow-add-comment::before {
+    content: "\f075"; /* fa-comment-alt */
+}
+
 .detpage .menu-action-links a.archiveLink::before {
     content: "\f187"; /* fa-archive */
 }
 
 .detpage .menu-action-links a.edit-link::before {
-    content: "\f044"; /* fa-edit */
+    content: "\f040"; /* fa-edit */
 }
 
 .detpage .menu-action-links a.cancelLink::before {
