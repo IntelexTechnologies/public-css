@@ -262,6 +262,11 @@ a.createNewTaskLink::before,
 a.gridLinkBuilder::before, 
 .ui-widget-content a.gridCreateLink::before {
     content: "\f067"; /* fa-plus-circle */
+    color: #FFF !important;
+}
+
+a.gridCreateLink {
+    color: #FFF;
 }
 
 a.gridDeleteLink::before {
@@ -518,7 +523,7 @@ div.map-wrapper tr.datagrid_footer td {
 
 
 .inventory-row div.body-wrapper tr.header .td_sorting {
-    padding: 14px 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 .inventory-row td.data-cell, 
