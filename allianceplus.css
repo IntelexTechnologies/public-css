@@ -702,11 +702,17 @@ div#notification_caption {
     line-height: normal;
 }
 
+.icon-selector {
+    padding: 8px;
+}
+
 .entitySelectorGroup,
 .entityselector-selectLink,
 .entityselector-clearLink,
 .entityselector-assignToMeLink,
 .hierarchyselector-clearLink,
+.icon-select-link,
+.icon-clear-link,
 #configureSchedule,
 #clearSchedule {
     font-size: 0 !important;
@@ -715,6 +721,8 @@ div#notification_caption {
 .entityselector-selectLink::before,
 .entityselector-clearLink::before,
 .entityselector-assignToMeLink::before,
+.icon-select-link::before,
+.icon-clear-link::before,
 #configureSchedule::before,
 #clearSchedule::before,
 .hierarchyselector-clearLink::before {
@@ -724,11 +732,13 @@ div#notification_caption {
 }
 
 .entityselector-selectLink::before,
+.icon-select-link::before,
 #configureSchedule::before {
     content: "\f002"; /* fa-search */
 }
 .entityselector-clearLink::before,
 .hierarchyselector-clearLink::before,
+.icon-clear-link::before,
 #clearSchedule::before,
 .hierarchyselector-clearLink::before {
     content: "\f00d"; /* fa-times */
