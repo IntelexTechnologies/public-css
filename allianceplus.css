@@ -143,6 +143,11 @@ tr.header {
     padding: 0px !important;
 }
 
+
+.detpage .content {
+    margin-top: 20px;
+}
+
 /* Detail - Detail  Menu */
 
 .detpage>*>.header .main {
@@ -183,8 +188,16 @@ tr.header {
     font-weight: 600;
 }
 
+.detpage .menu-action-links input::before {
+    font-family: 'FontAwesome';
+}
+
 #save_action_link {
-    color: unset;
+    color: rgb(0, 76, 143)!important;
+}
+
+#save_action_link::before {
+    content: "\f0c7"; /* fa-save */
 }
 
 .menu-action-links a:hover, 
