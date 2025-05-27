@@ -177,10 +177,14 @@ tr.header {
     border: 2px solid rgb(0, 76, 143);
     padding: 8px 10px!important;
     border-radius: 21px;
-    background: none !important;
+    background-image: none !important;
     color: rgb(0, 76, 143);
     font-size: 15px;
     font-weight: 600;
+}
+
+#save_action_link {
+    color: unset;
 }
 
 .menu-action-links a:hover, 
