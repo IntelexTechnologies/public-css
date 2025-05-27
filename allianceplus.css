@@ -276,12 +276,12 @@ a.gridDetachLink,
 a.gridArchiveLink,
 a.grid-detach-link,
 a.gridRemoveMergeLink {
-    color: #8d1624 !important;
-    border-color: #8d1624 !important;
+    color: #8d1624;
+    border-color: #8d1624;
 }
 
 a.gridDeleteLink::before,
-a.gridRemoveMergeLink {
+a.gridRemoveMergeLink::before {
     content: "\f057"; /* fa-times-circle */
 }
 
@@ -324,7 +324,7 @@ a.gridHierarchyTreeLink::before {
 }
 
 a.gridDataImportLink::before,
-a.gridUploadMergeLink {
+a.gridUploadMergeLink::before {
     content: "\f093"; /* fa-upload */
 }
 
