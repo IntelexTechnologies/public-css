@@ -148,6 +148,14 @@ tr.header {
     margin-top: 20px;
 }
 
+div#breadcrumbs_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+}
+
 .detpage .breadcrumbs a {
     font-size: 14px;
     border-bottom: 1px solid #164f8d;
