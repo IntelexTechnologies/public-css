@@ -168,7 +168,6 @@ tr.header {
     background-color: var(--button-hover-color);
 }
 
-
 .datagrid_footer .pagerContainer {
     width: auto !important;
 }
@@ -180,8 +179,10 @@ tr.header {
 }
 
 div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td, 
-div.map-wrapper tr.datagrid_footer td {
+div.map-wrapper tr.datagrid_footer td,
+.secbase .grid_container .footer-wrapper {
     border-radius: 0px 0px 20px 20px;
+    padding: 10px!important;
 }
 
 .detpage .grid_container thead,
@@ -196,10 +197,8 @@ div.map-wrapper tr.datagrid_footer td {
 .map-wrapper div.body-wrapper tr.header-filter, 
 .detpage .inventory-row div.body-wrapper tr.header, 
 .detpage .inventory-row div.body-wrapper tr.header-filter {
-    background-color: none !important;
+    background: none !important;
 }
-
-
 
 .inventory-row td.data-cell, 
 .map-wrapper td.data-cell, 
