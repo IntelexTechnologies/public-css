@@ -323,6 +323,7 @@ tr.header {
     padding: 5px 8px;
     height: unset !important;
     min-width: 50px;
+    background-color: #FFF;
 }
 
 /* Detail */
@@ -336,6 +337,10 @@ tr.header {
     letter-spacing: 0.25px;
     margin-left: 0px;
     padding: 0px !important;
+}
+
+.title-container .icon {
+    display: none;
 }
 
 
@@ -649,6 +654,10 @@ div#notification_caption {
     box-sizing: border-box;
     border: 1px solid #004c8f!important;
     padding: 8px;
+}
+
+.fieldarea-field input,
+.fieldarea-field select {
     height: unset !important;
 }
 
