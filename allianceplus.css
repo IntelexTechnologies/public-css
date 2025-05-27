@@ -82,12 +82,18 @@ div[style="clear:both"] {
 .app-tabs ul li a {
     border-right: none !important;
 }
+
+.app-tabs ul li a:hover {
+    color: unset;
+}
+
 .app-tabs ul li.selected-tab a:before, 
 .app-tabs ul li.selected-tab a:after {
     display: none !important;
 }
 
-.app-tabs ul li.selected-tab {
+.app-tabs ul li.selected-tab,
+.app-tabs ul li:hover {
     border-bottom: 3px solid #004c8f !important;
     background: transparent
 }
