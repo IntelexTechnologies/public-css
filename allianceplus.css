@@ -96,8 +96,12 @@ tr.header {
 }
 
 .datagrid th {
-    white-space: unset!important;
+
     vertical-align: bottom!important; 
+}
+.datagrid td,
+.datagrid th {
+    white-space: unset!important;
 }
 
 .inventory-row div.body-wrapper tr.header, 
