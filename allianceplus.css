@@ -126,7 +126,10 @@ li#more-button {
     margin: 10px 16px 0 0;
 }
 
-.tab-menu .menu-bar {
+.tab-menu .menu-bar,
+.tab-menu .menu-bar #searchMenu,
+.tab-menu .menu-bar .collapsible-panel-header,
+.tab-menu .menu-bar .link-items a  {
     background: none;
     border: none
 }
