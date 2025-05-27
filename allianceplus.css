@@ -585,6 +585,13 @@ div[id^="frequencyContainer_"],
     padding: 8px;
 }
 
+.detpage .group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 
 .detpage .fieldarea-field .group-item {
     display: flex;
