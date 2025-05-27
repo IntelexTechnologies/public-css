@@ -79,7 +79,6 @@ div[style="clear:both"] {
     flex-shrink: 0;
 }
 
-
 .app-tabs ul li a {
     border-right: none !important;
 }
@@ -89,8 +88,12 @@ div[style="clear:both"] {
 }
 
 .app-tabs ul li.selected-tab {
-    border-bottom: 2px solid #004c8f !important;
-    background: #eef6fb !important;
+    border-bottom: 3px solid #004c8f !important;
+    background: transparent
+}
+.app-tabs ul li.selected-tab > a {
+    color: #004c8f;
+    font-weight: 600;
 }
 
 /* Inventory header */
