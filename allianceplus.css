@@ -160,6 +160,32 @@ li#more-button {
     .tab-menu {
         width: 35px;
     }
+
+    .menu-tooltip {
+        visibility: hidden;
+        color: #0076bd !important;
+        width: auto;
+        white-space: nowrap;
+        background-color: #f1f1f1;
+        -ms-border-bottom-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        -ms-border-top-right-radius: 5px;
+        border-top-right-radius: 5px;
+        position: absolute;
+        z-index: 999999999;
+        padding-right: 10px;
+        padding-left: 10px;
+        top: 0;
+        left: 100%;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+    }
+
+    .tab-menu.tab-menu-collapsed>.menu-bar .collapsible-panel-header:hover .menu-tooltip, 
+    .tab-menu.tab-menu-collapsed>.menu-bar .link-items a:hover .menu-tooltip, 
+    .tab-menu.tab-menu-collapsed>.menu-bar .favorite-item a:hover .menu-tooltip {
+        visibility: visible;
+    }
+
 }
 
 /* Inventory header */
