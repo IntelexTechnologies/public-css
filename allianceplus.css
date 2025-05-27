@@ -223,9 +223,9 @@ table.links {
     flex-wrap: wrap;
     gap: 5px;
     align-items: center;
-    justify-content: space-between;
-    height: unset!important;
-    padding: 0!important;
+    justify-content: flex-start;
+    height: unset !important;
+    padding: 0 !important;
 }
 
 .grid-action-links {
@@ -337,7 +337,24 @@ a.gridSampleMergeTemplateLink::before {
 }
 
 .inventory-actions .dropdown_text {
-    padding-right: 0!important;
+    color: #164f8d;
+    font-size: 15px;
+    background-image: none !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: 2px solid #164f8d !important;
+    border-radius: 20px;
+    padding: 8px 10px !important;
+    gap: 5px;
+}
+
+.inventory-actions .dropdown_text::before {
+    font-family: 'FontAwesome';
+    content: "\f150";
+    font-size: 15px;
+    font-weight: normal;
 }
 
 .grid-action-links a:hover {
@@ -562,6 +579,22 @@ div#breadcrumbs_container {
 }
 
 /* grid */
+
+td.td_edit_link a::before {
+    content: "\f040";
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    font-weight: normal;
+}
+
+td.td_edit_link a {
+    color: #164f8d;
+    text-decoration: none;
+}
+
+td.td_edit_link img {
+    display: none;
+}
 
 div.inventory-row.datagrid .body-wrapper,
 .secbase .grid_container .body-wrapper {
