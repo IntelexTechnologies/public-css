@@ -64,6 +64,10 @@ div[style="clear:both"] {
     gap: 8px;
 }
 
+.app-tabs ul li:first-child {
+    border-left: none !important;
+}
+
 .app-tabs ul li {
     display: flex;
     flex-direction: column;
@@ -72,6 +76,11 @@ div[style="clear:both"] {
     text-decoration: none !important;
     border: none;
     flex-shrink: 0;
+}
+
+
+.app-tabs ul li a {
+    border-right: none !important;
 }
 
 .app-tabs ul li.selected-tab {
