@@ -271,7 +271,7 @@ a.gridCreateLink,
 a.createNewTaskLink,
 a.gridLinkBuilder,
 .ui-widget-content a.gridCreateLink {
-    color: #FFF;
+    color: #FFF!important;
     background-color: #004c8f!important;
 }
 
