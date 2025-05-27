@@ -130,6 +130,19 @@ tr.header {
     min-width: 50px;
 }
 
+/* Detail */
+
+.detpage > * > .header .main .title-container .text {
+    color: #262626 !important;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    margin-left: 0px;
+    padding: 0px !important;
+}
+
 /* Detail - Detail  Menu */
 
 .detpage>*>.header .main {
@@ -233,6 +246,8 @@ div.map-wrapper tr.datagrid_footer td div.pageSizeControl select {
 }
 
 /* Detail View Section */
+
+
 
 .content > .secbase {
     border: 1px solid #dbe4e5 !important;
