@@ -82,6 +82,10 @@ div[style="clear:both"] {
 .app-tabs ul li a {
     border-right: none !important;
 }
+.app-tabs ul li.selected-tab a:before, 
+.app-tabs ul li.selected-tab a:after {
+    display: none !important;
+}
 
 .app-tabs ul li.selected-tab {
     border-bottom: 2px solid #004c8f !important;
