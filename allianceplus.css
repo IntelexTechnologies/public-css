@@ -9,6 +9,14 @@ body {
     background: #eef6fb;
 }
 
+#page-content {
+    background: #fefefe;
+    margin: 24px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 14px 0px rgba(0, 76, 143, 0.22);
+    padding: 24px !important;
+}
+
 /* Hiden all clear:both stuff */
 
 div[style="clear:both"] {
