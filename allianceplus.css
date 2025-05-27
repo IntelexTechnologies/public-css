@@ -509,12 +509,17 @@ div#breadcrumbs_container {
     color: rgb(0, 76, 143);
     font-size: 15px;
     font-weight: 600;
+    display: flex !important;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 5px;
 }
 
 .detpage .menu-action-links a::before {
     font-family: 'FontAwesome';
-    margin-right: 5px;
     font-weight: normal;
+    font-size: 18px;
 }
 
 .detpage .menu-action-links a.archiveLink {
