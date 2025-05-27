@@ -5,6 +5,10 @@
     --button-hover-color: #e6e9eb;
 }
 
+body {
+    background: #eef6fb;
+}
+
 /* Hiden all clear:both stuff */
 
 div[style="clear:both"] {
