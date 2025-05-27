@@ -9,12 +9,22 @@ body {
     background: #eef6fb;
 }
 
+
+a.systemLink {
+    color: #004c8f !important;
+}
+
 #page-content {
     background: #fefefe;
-    margin: 24px;
-    border-radius: 24px;
+    margin: 18px;
+    border-radius: 18px;
     box-shadow: 0px 4px 14px 0px rgba(0, 76, 143, 0.22);
     padding: 24px !important;
+}
+
+
+div.tab-content { 
+    border: none;
 }
 
 /* Hiden all clear:both stuff */
