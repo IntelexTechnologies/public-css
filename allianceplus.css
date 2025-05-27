@@ -301,9 +301,9 @@ a.gridDataImportLink,
 a.gridAttachLink,
 a.grid-attach-link,
 a.gridSampleMergeTemplateLink,
-a.gridHierarchyTreeLink {
+a.gridUploadMergeLink {
     color: #004c8f !important;
-    border-color: #587996 !important;
+    border-color: #004c8f !important;
 }
 
 a.gridAttachLink::before,
