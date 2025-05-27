@@ -130,8 +130,15 @@ li#more-button {
 .tab-menu .menu-bar #searchMenu,
 .tab-menu .menu-bar .collapsible-panel-header,
 .tab-menu .menu-bar .link-items a  {
-    background: none;
+    background: none!important;
     border: none
+}
+
+.tab-menu .collapsible-panel-content .tree-builder > a:hover, 
+.tab-menu .link-items a:hover {
+    border-left: 4px solid #004c8f !important;
+    background: none !important;
+    color: #004c8f !important;
 }
 
 /* Inventory header */
