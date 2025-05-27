@@ -530,7 +530,12 @@ div[id^="frequencyContainer_"],
     background: transparent;
 }
 
-[data-theme=Material] .tabs-section.ui-state-default.ui-tabs-active.ui-state-active {
+.tabs-section.ui-state-default, .tabs-section.ui-widget-content .ui-state-default, 
+.tabs-section.ui-widget-header .ui-state-default {
+    background: none !important;
+}
+
+.tabs-section.ui-state-default.ui-tabs-active.ui-state-active {
     display: flex;
     border-bottom: 2px solid #004c8f !important;
     border-radius: 1px !important;
