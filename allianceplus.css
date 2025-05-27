@@ -241,22 +241,29 @@ table.links {
     gap: 5px;
 }
 
-.grid-action-links a, .inventory-actions {
+.grid-action-links a {
     padding: 8px 10px!important;
-    border: 2px solid rgb(0, 76, 143);
-    color: rgb(0, 76, 143);
+    border-width: 2px;
+    border-style:  solid;
     border-radius: 21px;
-    background: none;
+    background-image: none;
     font-size: 14px;
     font-weight: 600;
 }
 
-.grid-action-links a::before, 
-.inventory-actions::before {
+.grid-action-links a::before {
     font-family: 'FontAwesome';
-    color: rgb(0, 76, 143);
     margin-right: 5px;
     font-weight: normal;
+}
+
+a.gridCreateLink,
+a.createNewTaskLink,
+a.gridLinkBuilder,
+.ui-widget-content a.gridCreateLink {
+    color: #FFF;
+    background-color: #004c8f;
+    border-color: #004c8f;
 }
 
 a.gridCreateLink::before, 
@@ -267,39 +274,47 @@ a.gridLinkBuilder::before,
     color: #FFF !important;
 }
 
-a.gridCreateLink,
-a.createNewTaskLink,
-a.gridLinkBuilder,
-.ui-widget-content a.gridCreateLink {
-    color: #FFF!important;
-    background-color: #004c8f!important;
-}
-
-a.gridDeleteLink::before,
-a.gridDetachLink::before {
-    content: "\f057"; /* fa-times-circle */
-    color: #8d1624 !important;
-}
-
 a.gridDeleteLink,
 a.gridDetachLink {
     color: #8d1624 !important;
     border-color: #8d1624 !important;
 }
 
-.gridListAllLink::before {
+a.gridDeleteLink::before {
+    content: "\f057"; /* fa-times-circle */
+}
+
+a.gridDetachLink::before {
+    content: "\f127"; /* fa-unlink */
+}
+
+a.gridListAllLink,
+a.gridAdvancedSearchLink,
+a.gridHierarchyTreeLink,
+a.gridDataImportLink,
+a.gridAttachLink {
+    color: #004c8f !important;
+    border-color: #004c8f !important;
+}
+
+a.gridAttachLink::before {
+    content: "\f0c1"; /* fa-link */
+}
+
+
+a.gridListAllLink::before {
     content: "\f0c9"; /* fa-list-ul */
 }
 
-.gridAdvancedSearchLink::before {
+a.gridAdvancedSearchLink::before {
     content: "\f002"; /* fa-search */
 }
 
-.gridHierarchyTreeLink::before {
+a.gridHierarchyTreeLink::before {
     content: "\f0e8"; /* fa-sitemap */
 }
 
-.gridDataImportLink::before {
+a.gridDataImportLink::before {
     content: "\f093"; /* fa-upload */
 }
 
@@ -314,12 +329,16 @@ a.gridDetachLink {
     padding-right: 0!important;
 }
 
-.grid-action-links a:hover, .inventory-actions:hover {
+.grid-action-links a:hover {
     background-color: var(--button-hover-color);
 }
 
 .secbase .links_container {
     line-height: unset !important;
+}
+
+.secbase .secbase .header {
+    margin-left: 0 !important;
 }
 
 /* Inventory Columns */
