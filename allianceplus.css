@@ -156,10 +156,11 @@ div#breadcrumbs_container {
     gap: 6px;
 }
 
-.detpage .breadcrumbs a {
+.breadcrumbs a {
     font-size: 14px;
     border-bottom: 1px solid #164f8d;
     color: #164f8d;
+    padding-bottom: 5px;
 }
 
 /* Detail - Detail  Menu */
