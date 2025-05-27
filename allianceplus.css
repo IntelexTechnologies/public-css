@@ -535,11 +535,14 @@ div[id^="frequencyContainer_"],
     background: none !important;
 }
 
-.tabs-section.ui-state-default.ui-tabs-active.ui-state-active {
+.tabs-section.ui-tabs .ui-tabs-nav li {
     display: flex;
-    border-bottom: 2px solid #004c8f !important;
     border-radius: 1px !important;
     height: 100% !important;
     box-sizing: border-box;
     align-items: center;
+}
+
+.tabs-section.ui-state-default.ui-tabs-active.ui-state-active {
+    border-bottom: 2px solid #004c8f !important;    
 }
