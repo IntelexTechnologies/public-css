@@ -29,7 +29,7 @@ div.tab-content {
 
 /* Hiden all clear:both stuff */
 
-div[style="clear:both"] {
+div[style="clear: both"] {
     display: none;
 }
 
