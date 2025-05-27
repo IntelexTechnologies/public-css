@@ -179,13 +179,13 @@ tr.header {
 /* grid */
 
 .secbase .grid_container .body-wrapper {
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 18x 18px 0px 0px;
 }
 
 div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td, 
 div.map-wrapper tr.datagrid_footer td,
 .secbase .grid_container .footer-wrapper {
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 18px 18px;
 }
 
 .detpage .grid_container thead,
