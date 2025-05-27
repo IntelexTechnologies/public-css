@@ -23,6 +23,10 @@ a.systemLink {
 }
 
 
+.detpage .form-wrapper {
+    padding: 20px  0;
+}
+
 div.tab-content { 
     border: none;
 }
@@ -354,6 +358,7 @@ div#breadcrumbs_container {
     flex-wrap: wrap;
     align-items: center;
     gap: 6px;
+    margin-left: 0;
 }
 
 .inventory-page .breadcrumbs a,
