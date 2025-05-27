@@ -134,7 +134,7 @@ tr.header {
 
 .detpage > * > .header .main .title-container .text {
     color: #262626 !important;
-    font-size: 34px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -597,3 +597,50 @@ div[id^="frequencyContainer_"],
 .tab-grids {
     margin-bottom: 20px;
 }
+
+/* WOrkflow Status */
+
+.detpage .header .main .title-container .workflow-status-area {
+    margin: 24px 0px 24px 0px !important;
+    padding: 0px !important;
+    background-color: transparent;
+}
+
+.workflow-status-area {
+    display: grid;
+    column-gap: 30px;
+}
+
+.detpage .header .main .title-container .workflow-status-area strong {
+    color: #262626;
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 3px !important;
+}
+
+.detpage .header .main .title-container .workflow-status-area span, .detpage .header .main .title-container .workflow-status-area #WorkflowStatus {
+    margin-right: 0;
+    margin-left: 3px !important;
+    color: #262626;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.15px;
+}
+
+.workflow-status-area span {
+    grid-row: 2;
+}
+
+.workflow-status-area strong {
+    grid-row: 1;
+}
+
+.workflow-status-area strong, 
+.workflow-status-area span {
+    grid-column: span 1;
+}
+
