@@ -538,6 +538,9 @@ div.map-wrapper tr.datagrid_footer td div.pageSizeControl select {
 .secbase>.content {
     padding: 20px 0 0 0 !important;
     margin-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .secbase>.footer {
