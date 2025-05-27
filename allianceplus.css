@@ -273,7 +273,8 @@ a.gridLinkBuilder::before,
 
 a.gridDeleteLink,
 a.gridDetachLink,
-a.gridArchiveLink {
+a.gridArchiveLink,
+a.grid-detach-link {
     color: #8d1624 !important;
     border-color: #8d1624 !important;
 }
@@ -286,7 +287,8 @@ a.gridArchiveLink::before {
     content: "\f187"; /* fa-archive */
 }
 
-a.gridDetachLink::before {
+a.gridDetachLink::before,
+a.grid-detach-link::before {
     content: "\f127"; /* fa-unlink */
 }
 
@@ -294,12 +296,14 @@ a.gridListAllLink,
 a.gridAdvancedSearchLink,
 a.gridHierarchyTreeLink,
 a.gridDataImportLink,
-a.gridAttachLink {
+a.gridAttachLink,
+a.grid-attach-link {
     color: #004c8f !important;
     border-color: #004c8f !important;
 }
 
-a.gridAttachLink::before {
+a.gridAttachLink::before,
+a.grid-attach-link::before {
     content: "\f0c1"; /* fa-link */
 }
 
