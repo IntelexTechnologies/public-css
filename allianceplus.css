@@ -182,13 +182,13 @@ div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td,
 div.map-wrapper tr.datagrid_footer td,
 .secbase .grid_container .footer-wrapper {
     border-radius: 0px 0px 20px 20px;
-    padding: 10px!important;
 }
 
 .detpage .grid_container thead,
 div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td, 
 div.map-wrapper tr.datagrid_footer td {
     background-color: #F7F7F7;
+    padding: 10px!important;
 }
 
 .inventory-row div.body-wrapper tr.header, 
@@ -204,6 +204,12 @@ div.map-wrapper tr.datagrid_footer td {
 .map-wrapper td.data-cell, 
 .detpage .inventory-row td.data-cell {
     padding: 16px 8px;
+}
+
+div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td div.pageSizeControl select, 
+div.map-wrapper tr.datagrid_footer td div.pageSizeControl select {
+    background-color: #FFF;
+    border-radius: 8px;
 }
 
 /* Detail View Section */
