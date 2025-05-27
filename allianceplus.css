@@ -9,8 +9,6 @@ body {
     background: #eef6fb;
 }
 
-
-
 #page-content {
     background: #fefefe;
     margin: 18px;
@@ -18,7 +16,6 @@ body {
     box-shadow: 0px 4px 14px 0px rgba(0, 76, 143, 0.22);
     padding: 18px !important;
 }
-
 
 .detpage .form-wrapper {
     padding: 20px  0;
@@ -518,6 +515,15 @@ div#breadcrumbs_container {
     font-family: 'FontAwesome';
     margin-right: 5px;
     font-weight: normal;
+}
+
+.detpage .menu-action-links a.archiveLink {
+    color: #8d1624 !important;
+    border-color: #8d1624 !important;
+}
+
+.detpage .menu-action-links a.archiveLink::before {
+    content: "\f187"; /* fa-archive */
 }
 
 .detpage .menu-action-links a.cancelLink::before {
