@@ -48,6 +48,7 @@ div[style="clear:both"] {
     border: none;
     white-space: nowrap;                            
     height: unset !important;
+    margin-bottom: 10px;
 }
 
 .app-tabs ul {
@@ -115,6 +116,19 @@ li#more-button {
 .app-tabs .extra-tabs {
     top: 44px;
     background-color: white;
+}
+
+/* left menu */
+
+.tab-menu {
+    border: 1px solid #d7dcde;
+    border-radius: 18px;
+    margin: 10px 16px 0 0;
+}
+
+.tab-menu .menu-bar {
+    background: none;
+    border: none
 }
 
 /* Inventory header */
