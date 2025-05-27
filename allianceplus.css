@@ -245,7 +245,7 @@ table.links {
     padding: 8px 10px;
     border: 2px solid rgb(0, 76, 143);
     border-radius: 21px;
-    background-position: 3px !important;
+    background: none;
     font-size: 14px;
     font-weight: 600;
 }
@@ -254,6 +254,7 @@ table.links {
     font-family: 'FontAwesome';
     color: rgb(0, 76, 143);
     margin-right: 5px;
+    font-weight: normal;
 }
 
 a.gridCreateLink::before, 
@@ -264,7 +265,12 @@ a.gridLinkBuilder::before,
 }
 
 .gridDeleteLink::before {
-    content: "\f1f8"; /* fa-trash-alt */
+    content: "\f057"; /* fa-times-circle */
+    color: #8d1624 !important
+}
+
+.gridDeleteLink a {
+    color: #8d1624 !important
 }
 
 .gridListAllLink::before {
@@ -276,7 +282,7 @@ a.gridLinkBuilder::before,
 }
 
 .gridHierarchyTreeLink::before {
-    content: "\f0c0"; /* fa-sitemap */
+    content: "\f0e8"; /* fa-sitemap */
 }
 
 .gridDataImportLink::before {
