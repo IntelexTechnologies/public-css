@@ -274,12 +274,14 @@ a.gridLinkBuilder::before,
 a.gridDeleteLink,
 a.gridDetachLink,
 a.gridArchiveLink,
-a.grid-detach-link {
+a.grid-detach-link,
+a.gridRemoveMergeLink {
     color: #8d1624 !important;
     border-color: #8d1624 !important;
 }
 
-a.gridDeleteLink::before {
+a.gridDeleteLink::before,
+a.gridRemoveMergeLink {
     content: "\f057"; /* fa-times-circle */
 }
 
@@ -297,9 +299,11 @@ a.gridAdvancedSearchLink,
 a.gridHierarchyTreeLink,
 a.gridDataImportLink,
 a.gridAttachLink,
-a.grid-attach-link {
+a.grid-attach-link,
+a.gridSampleMergeTemplateLink,
+a.gridHierarchyTreeLink {
     color: #004c8f !important;
-    border-color: #004c8f !important;
+    border-color: #587996 !important;
 }
 
 a.gridAttachLink::before,
@@ -319,8 +323,13 @@ a.gridHierarchyTreeLink::before {
     content: "\f0e8"; /* fa-sitemap */
 }
 
-a.gridDataImportLink::before {
+a.gridDataImportLink::before,
+a.gridUploadMergeLink {
     content: "\f093"; /* fa-upload */
+}
+
+a.gridSampleMergeTemplateLink::before {
+    content: "\f019"; /* fa-file-alt */
 }
 
 .grid-action-links a:empty,
