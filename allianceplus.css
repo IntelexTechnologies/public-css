@@ -499,6 +499,7 @@ div#breadcrumbs_container {
 }
 
 .detpage .menu-action-links a,
+.detpage .menu-action-links a.edit-link,
 .detpage .menu-action-links input {
 
     margin-right: 0;
@@ -519,7 +520,7 @@ div#breadcrumbs_container {
 .detpage .menu-action-links a::before {
     font-family: 'FontAwesome';
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .detpage .menu-action-links a.archiveLink {
@@ -529,6 +530,10 @@ div#breadcrumbs_container {
 
 .detpage .menu-action-links a.archiveLink::before {
     content: "\f187"; /* fa-archive */
+}
+
+.detpage .menu-action-links a.edit-link::before {
+    content: "\f044"; /* fa-edit */
 }
 
 .detpage .menu-action-links a.cancelLink::before {
