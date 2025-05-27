@@ -242,12 +242,46 @@ table.links {
 }
 
 .grid-action-links a, .inventory-actions {
-    padding: 5px;
-    border: 1px solid var(--button-border-color);
-    border-radius: 6px;
-    background-position: 3px!important;
+    padding: 8px 10px;
+    border: 2px solid rgb(0, 76, 143);
+    border-radius: 21px;
+    background-position: 3px !important;
+    font-size: 14px;
+    font-weight: 600;
 }
 
+.grid-action-links a::before, .inventory-actions::before {
+    font-family: 'FontAwesome';
+    color: rgb(0, 76, 143);
+    margin-right: 5px;
+}
+
+a.gridCreateLink::before, 
+a.createNewTaskLink::before, 
+a.gridLinkBuilder::before, 
+.ui-widget-content a.gridCreateLink::before {
+    content: "\f067"; /* fa-plus-circle */
+}
+
+.gridDeleteLink::before {
+    content: "\f1f8"; /* fa-trash-alt */
+}
+
+.gridListAllLink::before {
+    content: "\f0c9"; /* fa-list-ul */
+}
+
+.gridAdvancedSearchLink::before {
+    content: "\f002"; /* fa-search */
+}
+
+.gridHierarchyTreeLink::before {
+    content: "\f0c0"; /* fa-sitemap */
+}
+
+.gridDataImportLink::before {
+    content: "\f093"; /* fa-upload */
+}
 
 .grid-action-links a:empty,
 .inventory-actions:empty,
