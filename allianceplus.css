@@ -531,17 +531,18 @@ div[id^="frequencyContainer_"],
     background: transparent;
 }
 
-.tabs-section.ui-state-default, .tabs-section.ui-widget-content .ui-state-default, 
+.tabs-section.ui-state-default, 
+.tabs-section.ui-widget-content .ui-state-default, 
 .tabs-section.ui-widget-header .ui-state-default {
     background: none !important;
 }
 
 .tabs-section.ui-tabs .ui-tabs-nav li {
     display: flex;
-    height: 100% !important;
     box-sizing: border-box;
     align-items: center;
     border-right: none !important;
+    padding: 10px 0;
 }
 
 .tabs-section.ui-state-default.ui-tabs-active.ui-state-active {
@@ -550,4 +551,8 @@ div[id^="frequencyContainer_"],
 
 .ui-helper-clearfix:after{
     display: none !important;
+}
+
+.tabs-section.ui-widget-content .ui-state-default {
+    margin-bottom: unset !important;
 }
