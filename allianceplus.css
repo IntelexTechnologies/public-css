@@ -124,6 +124,13 @@ li#more-button {
     display: none;
 }
 
+
+.inventory-page .breadcrumbs {
+    margin: 0!important;
+    padding: 18px 0;
+}
+
+
 /* Inventory Menu */
 
 .links_container {
