@@ -156,7 +156,8 @@ div#breadcrumbs_container {
     gap: 6px;
 }
 
-.breadcrumbs a {
+.inventory-page .breadcrumbs a,
+.detpage .breadcrumbs a  {    
     font-size: 14px;
     border-bottom: 1px solid #164f8d;
     color: #164f8d;
@@ -270,7 +271,7 @@ div.map-wrapper tr.datagrid_footer td {
 .inventory-row td.data-cell, 
 .map-wrapper td.data-cell, 
 .detpage .inventory-row td.data-cell {
-    padding: 16px 8px;
+    padding: 16px 10px;
 }
 
 div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td div.pageSizeControl select, 
