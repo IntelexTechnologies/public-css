@@ -517,15 +517,16 @@ div[id^="frequencyContainer_"],
 }
 
 .tabs-section.ui-tabs .ui-tabs-nav {
-    border-radius: 100px !important;
+    border-radius: 18px !important;
     overflow-x: scroll;
-    padding: 0px 20px !important;
-    height: 48px;
+    padding: 0px 14px !important;
     -ms-overflow-style: none;
     scrollbar-width: none;
     border: none;
     background-color: #eef6fb !important;
     display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
     background: transparent;
 }
@@ -537,12 +538,16 @@ div[id^="frequencyContainer_"],
 
 .tabs-section.ui-tabs .ui-tabs-nav li {
     display: flex;
-    border-radius: 1px !important;
     height: 100% !important;
     box-sizing: border-box;
     align-items: center;
+    border-right: none !important;
 }
 
 .tabs-section.ui-state-default.ui-tabs-active.ui-state-active {
     border-bottom: 2px solid #004c8f !important;    
+}
+
+.ui-helper-clearfix:after{
+    display: none !important;
 }
