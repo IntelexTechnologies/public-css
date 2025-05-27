@@ -148,11 +148,22 @@ tr.header {
     margin-top: 20px;
 }
 
+.detpage .breadcrumbs a {
+    font-size: 14px;
+    border-bottom: 1px solid #164f8d;
+    color: #164f8d;
+}
+
 /* Detail - Detail  Menu */
+
 
 .detpage>*>.header .main {
     height: unset !important;
     padding-bottom: 10px!important;
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu-action-links {
