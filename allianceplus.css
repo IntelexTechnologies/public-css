@@ -318,6 +318,10 @@ a.gridDetachLink {
     background-color: var(--button-hover-color);
 }
 
+.secbase .links_container {
+    line-height: unset !important;
+}
+
 /* Inventory Columns */
 
 .datagrid .td_sorting .dropdown_container {
