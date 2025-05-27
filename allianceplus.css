@@ -264,12 +264,12 @@ a.gridLinkBuilder::before,
     content: "\f067"; /* fa-plus-circle */
 }
 
-.gridDeleteLink::before {
+a.gridDeleteLink::before {
     content: "\f057"; /* fa-times-circle */
     color: #8d1624 !important;
 }
 
-.gridDeleteLink a {
+a.gridDeleteLink{
     color: #8d1624 !important;
     border-color: #8d1624 !important;
 }
