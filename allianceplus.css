@@ -552,17 +552,21 @@ div[id^="frequencyContainer_"],
 .ui-helper-clearfix:after{
     display: none !important;
 }
-
-.tabs-section.ui-widget-content .ui-state-default {
-    padding-bottom: unset !important;
+.tabs-section.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    padding-bottom: 10px;
 }
 
 .tabs-section.ui-state-active a, 
 .tabs-section.ui-state-active a:link, 
 .tabs-section.ui-state-active a:visited {
     color: #004c8f;
+    font-weight: 600;
 }
 
 .tabs-section.ui-tabs .ui-tabs-nav li:hover {
     border-bottom: 2px solid #004c8f !important;
+}
+
+.tab-grids {
+    margin-bottom: 20px;
 }
