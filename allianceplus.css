@@ -119,6 +119,15 @@ li#more-button {
 
 /* Inventory header */
 
+.inventory-container .header-wrapper {
+    min-height: unset;
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        display: none;
+    }}
+
 /* Hide the Custom Inventory Dropdown */
 .header-wrapper-inventory {
     display: none;
