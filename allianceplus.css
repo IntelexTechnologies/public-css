@@ -141,6 +141,27 @@ li#more-button {
     color: #004c8f !important;
 }
 
+.tab-menu  span.cnt {
+    background: #004c8f;
+    color: #FFF;
+    padding: 2px 6.5px;
+    border-radius: 10px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px !important;
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        display: none;
+    }
+    .tab-menu {
+        width: 35px;
+    }
+}
+
 /* Inventory header */
 
 .inventory-container .header-wrapper {
@@ -150,7 +171,8 @@ li#more-button {
 @media (max-width: 768px) {
     .page-header {
         display: none;
-    }}
+    }
+}
 
 /* Hide the Custom Inventory Dropdown */
 .header-wrapper-inventory {
