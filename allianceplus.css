@@ -179,7 +179,7 @@ div#breadcrumbs_container {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     padding-right: 80px!important; /* to leave space for the gear, print, popup icon */
 }
 
@@ -191,7 +191,12 @@ div#breadcrumbs_container {
 
     .detpage .fieldarea-field {
         width: 100% !important;
-    } 
+    }
+    
+    .detpage .menu-action-links a, 
+    .detpage .menu-action-links input {
+        font-size: 13px;
+    }
 }
 
 .detpage .menu-action-links a,
