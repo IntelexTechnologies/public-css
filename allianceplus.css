@@ -265,8 +265,12 @@ a.gridLinkBuilder::before,
     color: #FFF !important;
 }
 
-a.gridCreateLink {
+a.gridCreateLink,
+a.createNewTaskLink,
+a.gridLinkBuilder,
+.ui-widget-content a.gridCreateLink {
     color: #FFF;
+    background-color: #004c8f;
 }
 
 a.gridDeleteLink::before {
