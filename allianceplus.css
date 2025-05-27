@@ -242,7 +242,7 @@ table.links {
 }
 
 .grid-action-links a, .inventory-actions {
-    padding: 8px 10px;
+    padding: 8px 10px!important;
     border: 2px solid rgb(0, 76, 143);
     border-radius: 21px;
     background: none;
@@ -266,11 +266,12 @@ a.gridLinkBuilder::before,
 
 .gridDeleteLink::before {
     content: "\f057"; /* fa-times-circle */
-    color: #8d1624 !important
+    color: #8d1624 !important;
 }
 
 .gridDeleteLink a {
-    color: #8d1624 !important
+    color: #8d1624 !important;
+    border-color: #8d1624 !important;
 }
 
 .gridListAllLink::before {
