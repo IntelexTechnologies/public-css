@@ -204,6 +204,11 @@ div.map-wrapper tr.datagrid_footer td {
     background: none !important;
 }
 
+
+.inventory-row div.body-wrapper tr.header .td_sorting {
+    padding: 14px 10px;
+}
+
 .inventory-row td.data-cell, 
 .map-wrapper td.data-cell, 
 .detpage .inventory-row td.data-cell {
@@ -218,7 +223,7 @@ div.map-wrapper tr.datagrid_footer td div.pageSizeControl select {
 
 /* Detail View Section */
 
-.secbase {
+.content > .secbase {
     border: 1px solid #dbe4e5 !important;
     border-radius: 18px;
     padding: 18px;
