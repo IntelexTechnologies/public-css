@@ -554,5 +554,15 @@ div[id^="frequencyContainer_"],
 }
 
 .tabs-section.ui-widget-content .ui-state-default {
-    margin-bottom: unset !important;
+    padding-bottom: unset !important;
+}
+
+.tabs-section.ui-state-active a, 
+.tabs-section.ui-state-active a:link, 
+.tabs-section.ui-state-active a:visited {
+    color: #004c8f;
+}
+
+.tabs-section.ui-tabs .ui-tabs-nav li:hover {
+    border-bottom: 2px solid #004c8f !important;
 }
