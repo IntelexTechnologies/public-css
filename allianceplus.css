@@ -282,7 +282,7 @@ a.gridRemoveMergeLink {
 
 a.gridDeleteLink::before,
 a.gridRemoveMergeLink::before {
-    content: "\f057"; /* fa-times-circle */
+    content: "\f014"; /* fa-trash-alt */
 }
 
 a.gridArchiveLink::before {
@@ -514,16 +514,22 @@ div#breadcrumbs_container {
     font-weight: 600;
 }
 
-.detpage .menu-action-links input::before {
+.detpage .menu-action-links a::before {
     font-family: 'FontAwesome';
+    margin-right: 5px;
+    font-weight: normal;
 }
 
-#save_action_link {
-    color: rgb(0, 76, 143)!important;
+.detpage .menu-action-links a.cancelLink::before {
+    content: "\f00d"; /* fa-times */
 }
 
-#save_action_link::before {
-    content: "\f0c7"; /* fa-save */
+.detpage .menu-action-links a.exit-link::before {
+    content: "\f08b";
+}
+
+.detpage .menu-action-links a.securityActionLink::before {
+    content: "\f023"; /* fa-shield-alt */
 }
 
 .menu-action-links a:hover, 
