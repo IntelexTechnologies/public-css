@@ -510,16 +510,12 @@ div#breadcrumbs_container {
     color: rgb(0, 76, 143);
     font-size: 15px;
     font-weight: 600;
-    display: flex !important;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    gap: 5px;
 }
 
 .detpage .menu-action-links a::before {
     font-family: 'FontAwesome';
     font-weight: normal;
+    margin-right: 5px;
     font-size: 20px;
 }
 
@@ -533,7 +529,7 @@ div#breadcrumbs_container {
 }
 
 .detpage .menu-action-links a#workflow-add-comment::before {
-    content: "\f075"; /* fa-comment-alt */
+    content: "\f0e5"; /* fa-comment-alt */
 }
 
 .detpage .menu-action-links a.archiveLink::before {
