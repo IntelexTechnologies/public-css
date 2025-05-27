@@ -62,7 +62,7 @@ div[style="clear:both"] {
     -ms-overflow-style: none;
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
-    gap: 5px;
+    gap: 0 5px;
 }
 
 .app-tabs ul li:first-child {
@@ -93,13 +93,14 @@ div[style="clear:both"] {
 }
 
 .app-tabs ul li.selected-tab a:before, 
-.app-tabs ul li.selected-tab a:after {
+.app-tabs ul li.selected-tab a:after,
+.app-tabs ul li.selected-tab:after{
     display: none !important;
 }
 
 .app-tabs ul li.selected-tab,
 .app-tabs ul li:hover {
-    border-bottom: 3px solid #004c8f !important;
+    border-bottom: 2px solid #004c8f !important;
     background: transparent
 }
 .app-tabs ul li.selected-tab > a {
