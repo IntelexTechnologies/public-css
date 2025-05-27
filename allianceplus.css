@@ -275,12 +275,14 @@ a.gridLinkBuilder,
     background-color: #004c8f!important;
 }
 
-a.gridDeleteLink::before {
+a.gridDeleteLink::before,
+a.gridDetachLink::before {
     content: "\f057"; /* fa-times-circle */
     color: #8d1624 !important;
 }
 
-a.gridDeleteLink{
+a.gridDeleteLink,
+a.gridDetachLink {
     color: #8d1624 !important;
     border-color: #8d1624 !important;
 }
