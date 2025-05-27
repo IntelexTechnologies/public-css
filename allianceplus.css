@@ -440,6 +440,7 @@ div#breadcrumbs_container {
 div.inventory-row.datagrid .body-wrapper,
 .secbase .grid_container .body-wrapper {
     border-radius: 18px 18px 0px 0px;
+    border: 1px solid #d7dcde;
 }
 
 div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td, 
