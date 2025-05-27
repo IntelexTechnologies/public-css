@@ -176,11 +176,35 @@ tr.header {
 /* grid */
 
 .secbase .grid_container .body-wrapper {
-    border-radius: 20px 20px 0px 0px !important;
+    border-radius: 20px 20px 0px 0px;
 }
 
-.detpage .grid_container thead {
+div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td, 
+div.map-wrapper tr.datagrid_footer td {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.detpage .grid_container thead,
+div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td, 
+div.map-wrapper tr.datagrid_footer td {
     background-color: #F7F7F7;
+}
+
+.inventory-row div.body-wrapper tr.header, 
+.inventory-row div.body-wrapper tr.header-filter,
+.map-wrapper div.body-wrapper tr.header, 
+.map-wrapper div.body-wrapper tr.header-filter, 
+.detpage .inventory-row div.body-wrapper tr.header, 
+.detpage .inventory-row div.body-wrapper tr.header-filter {
+    background-color: none !important;
+}
+
+
+
+.inventory-row td.data-cell, 
+.map-wrapper td.data-cell, 
+.detpage .inventory-row td.data-cell {
+    padding: 16px 8px;
 }
 
 /* Detail View Section */
