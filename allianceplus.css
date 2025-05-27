@@ -585,6 +585,10 @@ div[id^="frequencyContainer_"],
     padding: 8px;
 }
 
+.fieldarea-field .flow-column .group-item {
+    margin-right: 0;
+}
+
 .detpage .group {
     display: flex;
     gap: 10px;
