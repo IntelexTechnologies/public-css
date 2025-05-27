@@ -1002,9 +1002,3 @@ div[id^="frequencyContainer_"],
 .workflow-status-area span {
     grid-column: span 1;
 }
-
-/* THe rest */
-
-a.systemLink {
-    color: #004c8f !important;
-}
