@@ -350,6 +350,7 @@ div#notification_caption {
 
 .fieldarea-field select[name$="Timezone"] {
     width: auto!important;
+    margin-right: 8px;
 }
 
 .fieldarea-field input[type="text"], 
@@ -431,4 +432,26 @@ div[id^="frequencyContainer_"],
 #schedulePreview,
 #calendarDialog {
     display: none!important;
+}
+
+.group.flow-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+
+.detpage .fieldarea-field .group-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: #ffffff;
 }
