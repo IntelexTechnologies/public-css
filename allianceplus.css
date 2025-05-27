@@ -221,6 +221,17 @@ div.map-wrapper tr.datagrid_footer td div.pageSizeControl select {
     border-radius: 8px;
 }
 
+.inventory-row tr.data_row, 
+.map-wrapper tr.data_row, 
+.detpage .inventory-row tr.data_row {
+    background-color: #ffffff;
+}
+.inventory-row tr.data_row.alternate, 
+.map-wrapper tr.data_row.alternate, 
+.detpage .inventory-row tr.data_row.alternate {
+    background-color: #fcfcfc;
+}
+
 /* Detail View Section */
 
 .content > .secbase {
@@ -561,6 +572,7 @@ div[id^="frequencyContainer_"],
 .tabs-section.ui-state-active a:visited {
     color: #004c8f;
     font-weight: 600;
+    cursor: pointer!important;
 }
 
 .tabs-section.ui-tabs .ui-tabs-nav li:hover {
