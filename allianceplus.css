@@ -648,6 +648,9 @@ div.map-wrapper tr.datagrid_footer {
     border-right: 1px solid #d7dcde!important;
 }
 
+.td_edit_link {
+    padding: 0px 2px!important;
+}
 
 .inventory-row div.body-wrapper tr.header .td_sorting {
     /* padding: 10px 10px 0px 10px; */
