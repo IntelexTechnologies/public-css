@@ -1102,16 +1102,3 @@ div[id^="frequencyContainer_"],
 .workflow-status-area span {
     grid-column: span 1;
 }
-
-div.tooltip {
-    background-image: none;
-}
-
-div.tooltip::before {
-    content: "\f059"; /* fa-info-circle */
-    font-family: 'FontAwesome';
-    font-size: 16px;
-    color: #004c8f;
-}
-
-
