@@ -27,7 +27,10 @@ div.tab-content {
 
 /* Hiden all clear:both stuff */
 
-div[style="clear: both;"] {
+div[style="clear: both;"],
+div[style="clear:both;"],
+div[style="clear:both"],
+div[style="clear: both"] {
     display: none;
 }
 
@@ -369,6 +372,10 @@ a.gridSampleMergeTemplateLink::before {
     margin-left: 0 !important;
 }
 
+.secbase.no_title > .header {
+    display: none;
+}
+
 /* Inventory Columns */
 
 .datagrid .td_sorting .dropdown_container {
@@ -634,12 +641,23 @@ div.map-wrapper tr.datagrid_footer {
 
 .inventory-row div.body-wrapper tr.header .td_sorting {
     padding: 10px 10px 0px 10px;
+    border-right: 1px solid #d7dcde;
+}
+
+.inventory-row div.body-wrapper tr.header .filter_cell, 
+.inventory-row div.body-wrapper tr.header-filter .filter_cell, 
+.map-wrapper div.body-wrapper tr.header .filter_cell, 
+.map-wrapper div.body-wrapper tr.header-filter .filter_cell, 
+.detpage .inventory-row div.body-wrapper tr.header .filter_cell, 
+.detpage .inventory-row div.body-wrapper tr.header-filter .filter_cell {
+    border-right: 1px solid #d7dcde;
 }
 
 .inventory-row td.data-cell, 
 .map-wrapper td.data-cell, 
 .detpage .inventory-row td.data-cell {
     padding: 16px 10px;
+    border-right: 1px solid #d7dcde;
 }
 
 div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td div.pageSizeControl select, 
@@ -1095,3 +1113,5 @@ div.tooltip::before {
     font-size: 16px;
     color: #004c8f;
 }
+
+
