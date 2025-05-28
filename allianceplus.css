@@ -645,7 +645,7 @@ div.map-wrapper tr.datagrid_footer {
 
 .td_selector,
 .td_edit_link {
-    border-right: 1px solid #d7dcde;
+    border-right: 1px solid #d7dcde!important;
 }
 
 
