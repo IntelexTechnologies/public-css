@@ -1102,3 +1102,10 @@ div[id^="frequencyContainer_"],
 .workflow-status-area span {
     grid-column: span 1;
 }
+
+
+span.dropdown_icon.icon_none::before {
+    content: "\f0dd";
+    font-family: 'FontAwesome';
+    color: #164f8d;
+}
