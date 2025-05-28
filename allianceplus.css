@@ -599,7 +599,8 @@ td.td_edit_link img {
 div.inventory-row.datagrid .body-wrapper,
 .secbase .grid_container .body-wrapper {
     border-radius: 18px 18px 0px 0px;
-    border: 1px solid #d7dcde;
+    border: solid #d7dcde;
+    border-width: 1px 1px 0px 1px;
 }
 
 
@@ -613,6 +614,12 @@ div.inventory-row.datagrid thead {
     border: 1px solid #d7dcde;
     border-radius: 0 0 18px 18px;
     background-color: #f7f7f7;
+}
+
+}
+div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer, 
+div.map-wrapper tr.datagrid_footer {
+    background-color:  transparent;
 }
 
 .inventory-row div.body-wrapper tr.header, 
