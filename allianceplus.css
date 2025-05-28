@@ -602,18 +602,17 @@ div.inventory-row.datagrid .body-wrapper,
     border: 1px solid #d7dcde;
 }
 
-div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td, 
-div.map-wrapper tr.datagrid_footer td,
-.secbase .grid_container .footer-wrapper {
-    border-radius: 0px 0px 18px 18px;
-}
 
 .detpage .grid_container thead,
-div.inventory-row.datagrid thead,
-div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer td, 
-div.map-wrapper tr.datagrid_footer td {
+div.inventory-row.datagrid thead {
     background-color: #F7F7F7;
     padding: 10px!important;
+}
+
+.footer-wrapper {
+    border: 1px solid #d7dcde;
+    border-radius: 0 0 18px 18px;
+    background-color: #f7f7f7;
 }
 
 .inventory-row div.body-wrapper tr.header, 
