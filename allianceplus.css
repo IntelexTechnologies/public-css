@@ -665,12 +665,13 @@ div.map-wrapper tr.datagrid_footer {
 .detpage .inventory-row div.body-wrapper tr.header .filter_cell, 
 .detpage .inventory-row div.body-wrapper tr.header-filter .filter_cell {
     border-right: 1px solid #d7dcde;
+    padding: 5px 5px;
 }
 
 .inventory-row td.data-cell, 
 .map-wrapper td.data-cell, 
 .detpage .inventory-row td.data-cell {
-    padding: 16px 10px;
+    padding: 16px 5px;
     border-right: 1px solid #d7dcde;
 }
 
@@ -1123,5 +1124,5 @@ div[id^="frequencyContainer_"],
 .map-wrapper div.body-wrapper tr.header-filter .td_sorting, 
 .detpage .inventory-row div.body-wrapper tr.header .td_sorting, 
 .detpage .inventory-row div.body-wrapper tr.header-filter .td_sorting {
-    padding: 5px 10px 0 10px;
+    padding: 5px 5px 0 5px;
 }
