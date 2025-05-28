@@ -1103,9 +1103,11 @@ div[id^="frequencyContainer_"],
     grid-column: span 1;
 }
 
-
-span.dropdown_icon.icon_none::before {
-    content: "\f0dd";
-    font-family: 'FontAwesome';
-    color: #164f8d;
+.td_sorting:hover .icon_none,
+.icon_none:hover, 
+.icon_none_hover, 
+.icon_arrow_down, 
+.icon_arrow_down:hover {
+    background: url(../images/DropdownArrowDark.png) no-repeat;
+    background-position: 2px 8px;
 }
