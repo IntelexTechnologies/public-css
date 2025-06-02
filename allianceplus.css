@@ -309,6 +309,7 @@ a.gridSampleMergeTemplateLink,
 a.gridUploadMergeLink {
     color: #004c8f !important;
     border-color: #004c8f !important;
+    background-color: #FFF;
 }
 
 a.gridAttachLink::before,
@@ -349,6 +350,7 @@ a.gridSampleMergeTemplateLink::before {
     color: #164f8d;
     font-size: 15px;
     background-image: none !important;
+    background-color: #FFF;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1263,4 +1265,12 @@ div[id^="frequencyContainer_"],
 
 div.tab-content {
     background: transparent !important;
+}
+
+.links_container {
+    background: transparent !important;
+}
+
+.links {
+    background-image: none !important;
 }
