@@ -1209,11 +1209,20 @@ div[id^="frequencyContainer_"],
     gap: 10px;
 }
 
-.filterbuilder .footer .add-predicate,
-.filterbuilder .footer .clear-predicates,
-.filterbuilder .footer .predicate-expression {
+.filterbuilder .footer span {
     padding: 5px 5px 5px 20px; 
     margin: 0;
     height: unset;
     line-height: unset;
+}
+
+.filterbuilder .footer .predicate-expression {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
 }
