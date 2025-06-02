@@ -1174,7 +1174,7 @@ div[id^="frequencyContainer_"],
 }
 
 .filterbuilder .predicate {
-    display: flex;
+    display: flex!important;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
@@ -1199,7 +1199,7 @@ div[id^="frequencyContainer_"],
 }
 
 .filterbuilder .predicate .template {
-    margin: 0;
+    margin: 0!important;
 }
 
 .filterbuilder .footer {
