@@ -1278,7 +1278,8 @@ div.tab-content {
     background-color: transparent;
 }
 
-#selectorFrame {
+#selectorFrame,
+#gridDialogFrame {
     min-width: unset!important;
 }
 
