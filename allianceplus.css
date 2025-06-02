@@ -9,7 +9,7 @@ body {
     background: #eef6fb;
 }
 
-#page-content {
+#page-content:not(.no-padding) {
     background: #fefefe;
     margin: 18px;
     border-radius: 18px;
@@ -1234,4 +1234,22 @@ div[id^="frequencyContainer_"],
     width: 100% !important;
     padding: 7px !important;
     border-radius: 6px;
+}
+
+
+/* Mass Update */
+
+.massupdate-container {
+    border: 1px solid #164f8d;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.no-padding .breadcrumbs {
+    display: none !important;
+}
+
+.no-padding .detpage .form-wrapper {
+    padding: 0 !important;
 }
