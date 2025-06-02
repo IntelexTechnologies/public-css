@@ -237,10 +237,12 @@ table.links {
 }
 
 .grid-action-links {
-    display: flex;
+    display: contents;
+   /*
     flex-wrap: wrap;
     flex-direction: row;
     gap: 5px;
+    */
 }
 
 .grid-action-links a {
