@@ -1298,7 +1298,8 @@ div.tab-content {
 }
 
 .ui-widget-content {
-    background: none!important;
+    background-color: white !important;
+    background-image: none !important;
 }
 
 button.ui-button {
