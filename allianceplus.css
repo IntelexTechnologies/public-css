@@ -340,7 +340,8 @@ a.gridSampleMergeTemplateLink::before {
 .grid-action-links a:empty,
 .inventory-actions:empty,
 .pagerContainer:empty,
-.group-item:empty {
+.group-item:empty,
+.massupdate-container:empty {
     display: none!important;
 }
 
