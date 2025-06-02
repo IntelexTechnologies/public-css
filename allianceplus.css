@@ -590,8 +590,21 @@ div#breadcrumbs_container {
     background-color: var(--button-hover-color);
 }
 
+.datagrid_footer td {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .datagrid_footer .pagerContainer {
     width: auto !important;
+    margin-left: 0 !important;
+    order: 1
+}
+
+.pageSizeControl {
+    order: 2;
 }
 
 /* grid */
@@ -636,6 +649,12 @@ div.inventory-row.datagrid thead {
 div.inventory-row.datagrid div.footer-wrapper tr.datagrid_footer, 
 div.map-wrapper tr.datagrid_footer {
     background-color:  transparent;
+}
+
+.datagrid_footer .pager-summary{
+    width: unset;
+    margin-left: 0;
+    order: 0;
 }
 
 .inventory-row div.body-wrapper tr.header, 
