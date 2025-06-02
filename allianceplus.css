@@ -1274,3 +1274,7 @@ div.tab-content {
 .links {
     background-image: none !important;
 }
+
+#selectorFrame {
+    min-width: unset!important;
+}
