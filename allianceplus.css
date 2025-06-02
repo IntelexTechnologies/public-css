@@ -1214,6 +1214,7 @@ div[id^="frequencyContainer_"],
     margin: 0;
     height: unset;
     line-height: unset;
+    white-space: nowrap;
 }
 
 .filterbuilder .footer .predicate-expression {
@@ -1225,4 +1226,10 @@ div[id^="frequencyContainer_"],
     justify-content: flex-start;
     margin: 0;
     padding: 0;
+}
+
+.predicate-expression input[type="text"] {
+    width: 100% !important;
+    padding: 7px !important;
+    border-radius: 6px;
 }
