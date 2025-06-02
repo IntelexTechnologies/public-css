@@ -820,6 +820,10 @@ div.map-wrapper tr.datagrid_footer td div.pageSizeControl select {
     min-height: 16px;
 }
 
+.fieldHint {
+    order: 50;
+}
+
 .fieldarea-field,
 .datetime-picker {
     display: flex;
@@ -1149,4 +1153,67 @@ div[id^="frequencyContainer_"],
 .detpage .inventory-row div.body-wrapper tr.header .td_sorting, 
 .detpage .inventory-row div.body-wrapper tr.header-filter .td_sorting {
     padding: 5px 5px 0 5px;
+}
+
+
+/* Advanced Search  */
+
+.filter-container {
+    margin-bottom: 10px;
+    border: 1px solid #d7dcde;
+    border-radius: 18px;
+    background-color: #eff6fb;
+}
+
+
+.filterbuilder .predicates {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 6px 0;
+}
+
+.filterbuilder .predicate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 18px;
+    border: 1px solid #d7dcde;
+    padding: 4px 10px;
+    margin: 0;
+}
+
+.filterbuilder .predicate .index {
+    line-height: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #164f8d;
+    color: white;
+    border-radius: 50%;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.filterbuilder .predicate .template {
+    margin: 0;
+}
+
+.filterbuilder .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filterbuilder .footer .add-predicate,
+.filterbuilder .footer .clear-predicates,
+.filterbuilder .footer .predicate-expression {
+    padding: 5px 5px 5px 20px; 
+    margin: 0;
+    height: unset;
+    line-height: unset;
 }
