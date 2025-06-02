@@ -1254,3 +1254,13 @@ div[id^="frequencyContainer_"],
 .no-padding .detpage .form-wrapper {
     padding: 0 !important;
 }
+
+@media (max-width: 52em) {
+    body[data-theme=Material] #page_wrapper.no-padding {
+        padding-top:0!important
+    }
+}
+
+div.tab-content {
+    background: transparent !important;
+}
