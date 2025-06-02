@@ -31,7 +31,7 @@ div[style="clear: both;"],
 div[style="clear:both;"],
 div[style="clear:both"],
 div[style="clear: both"] {
-    display: none;
+    display: none!important;
 }
 
 /* app tabs */
