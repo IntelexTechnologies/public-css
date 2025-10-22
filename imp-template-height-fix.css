@@ -1,0 +1,5 @@
+/*  Fixes the height of <select> elements in Import Template  */
+
+#MappingDetail select {
+    height: auto !important;
+}
